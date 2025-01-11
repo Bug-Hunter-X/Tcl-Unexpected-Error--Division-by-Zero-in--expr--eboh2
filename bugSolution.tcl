@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {$a == $b} {return "Error: Division by zero"} {return [expr 1.0/($a - $b)]}} 
